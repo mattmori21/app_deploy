@@ -2,7 +2,7 @@
 streamlit 
 pandas 
 numpy 
-matplotlib.pyplot 
+matplotlib
 random
 cv2
 PIL
