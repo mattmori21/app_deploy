@@ -1,6 +1,5 @@
 
 streamlit 
-os
 pickle
 pandas 
 numpy 
