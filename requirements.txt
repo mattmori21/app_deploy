@@ -1,0 +1,15 @@
+
+streamlit 
+os
+pickle
+pandas 
+numpy 
+matplotlib.pyplot 
+random
+cv2
+PIL
+Image
+tensorflow
+tensorflow.keras.preprocessing 
+tensorflow.keras.applications.efficientnet 
+
