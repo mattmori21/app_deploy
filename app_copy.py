@@ -23,7 +23,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-uwu_cat_image_path = "/mnt/c/Users/mattm/OneDrive/Documents/ecs111/ecs111_project_pet_emotions_repo/ecs111/uwu_cat.jpeg"
+uwu_cat_image_path = "uwu_cat.jpeg"
 uwu_cat_image = Image.open(uwu_cat_image_path)
 
 # Adjust width and position of the image
@@ -40,7 +40,7 @@ with uwu_content_column:
 
 
 
-model = tf.keras.models.load_model('/mnt/c/Users/mattm/OneDrive/Documents/ecs111/ecs111_project_pet_emotions_repo/ecs111/95_model.h5')
+model = tf.keras.models.load_model('95_model.h5')
 ds_name = 'Pets Facial Expression'
 data_dir = 'pet_images'
 
