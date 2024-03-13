@@ -39,12 +39,13 @@ with uwu_content_column:
     st.write("Here, you can upload an image of your adorable pet and receive suggestions for improving or maintaining your **pet's 'feelz'** based on the emotion that we've detected!")
 
 
-
-model = tf.keras.models.load_model('95_model.h5')
+@st.cache(max_entries = 10)
+def load_in():
+    return tf.keras.models.load_model('95_model.h5')
 ds_name = 'Pets Facial Expression'
 data_dir = 'pet_images'
 
-
+model = load_in()
 
 
 def load_image(image_file):
