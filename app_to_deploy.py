@@ -46,6 +46,9 @@ with uwu_content_column:
 @st.cache(max_entries = 10)
 def load_in():
     return tf.keras.models.load_model('98_model.h5')
+
+model = load_in()
+
 ds_name = 'Pets Facial Expression'
 data_dir = 'c_pet_images'
 
