@@ -47,7 +47,7 @@ with uwu_content_column:
 def load_in():
     return tf.keras.models.load_model('98_model.h5')
 ds_name = 'Pets Facial Expression'
-data_dir = 'pet_images'
+data_dir = 'c_pet_images'
 
 def gen_data_and_labels(data_dir):
     #Identifies and stores filepaths to images in images variables
